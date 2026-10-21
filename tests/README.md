@@ -51,3 +51,26 @@ The following evidence will be added after each test has been executed and verif
 - **NET-TEST-02:** Confirm that traffic from Operations VLAN 60 or 70 to HR VLAN 30 is blocked by the configured ACL.
 - **NET-TEST-03:** Verify communication between PC40 and the TI laptops over the wireless network.
 - **NET-TEST-04:** Access the internal application portal and confirm that the service responds successfully.
+
+---
+
+## NET-TEST-02 — Inter-VLAN Traffic Filtering for Operational Network Security
+
+**Security mechanism:** Access Control Lists (ACLs) configured on the Cisco Catalyst 3560 multilayer switch.
+
+- **Source:** PC14 — Operational VLAN 60 (`192.168.60.15`)
+- **Restricted destinations:**
+  - Finance VLAN 20 (`192.168.20.11`)
+  - HR VLAN 30 (`192.168.30.12`)
+- **Test method:** ICMP connectivity verification using `ping`.
+- **Observed result:** Both connection attempts failed, returning `Destination host unreachable` with 100% packet loss.
+- **Security objective:** Enforce network segmentation by restricting traffic from the Operational VLAN to sensitive corporate departments, reducing unauthorized access to Finance and HR resources.
+- **Enforcement point:** Cisco Catalyst 3560 multilayer switch, where inter-VLAN routing and ACL-based traffic filtering are implemented.
+
+### Screenshot
+
+![Operational VLAN access restriction test](screenshots/operations-to-sensitive-vlans-blocked.png.png)
+
+**Technical note:** The failed ping tests demonstrate the lack of connectivity between the tested endpoints. The ACL rules and their counters should be verified to confirm that the restrictions were enforced by the multilayer switch.
+
+---
