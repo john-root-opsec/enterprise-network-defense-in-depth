@@ -74,3 +74,23 @@ The following evidence will be added after each test has been executed and verif
 **Security validation:** The results confirm that traffic from the Operational VLAN to Finance and HR is blocked by the ACL security policies configured on the Cisco Catalyst 3560 multilayer switch.
 
 ---
+
+---
+
+## NET-TEST-03 — TI Wireless Connectivity Test
+
+This test verifies communication between a wireless TI laptop and a wired workstation within VLAN 10.
+
+- **Source:** Laptop1 — TI VLAN 10 (`192.168.10.8`)
+- **Destination:** PC40 — TI VLAN 10 (`192.168.10.10`)
+- **Test method:** ICMP connectivity verification using `ping`.
+- **Observed result:** Successful communication, with 4 packets received and 0% packet loss.
+- **Security objective:** Verify wireless connectivity to the wired TI network while maintaining VLAN segmentation.
+
+### Screenshot
+
+![TI wireless connectivity test](screenshots/ti-wireless-connectivity.png)
+
+**Conclusion:** Laptop1 successfully reached PC40 over the network, confirming connectivity between the wireless and wired devices within VLAN 10.
+
+---
