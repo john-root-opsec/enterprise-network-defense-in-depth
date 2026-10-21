@@ -69,7 +69,7 @@ The following evidence will be added after each test has been executed and verif
 
 ### Screenshot
 
-![Operational VLAN access restriction test](screenshots/operations-to-sensitive-vlans-blocked.png.png)
+![Operational VLAN access restriction test](screenshots/operations-to-sensitive-vlans-blocked.png)
 
 **Security validation:** The results confirm that traffic from the Operational VLAN to Finance and HR is blocked by the ACL security policies configured on the Cisco Catalyst 3560 multilayer switch.
 
