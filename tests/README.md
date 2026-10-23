@@ -134,10 +134,11 @@ Validation: Successfully accessed the switch remotely and executed show users an
 
 Security objective: Replace Telnet's unencrypted remote access with SSH, which encrypts management traffic in transit.
 
-Screenshot
+### Screenshot
+
+![SSH remote management and VLAN verification](screenshots/ssh-remote-management.png)
 
 Conclusion: SSH remote access was verified, and the switch's active VLANs were confirmed without modifying the network configuration.
-
 
 ---
 
