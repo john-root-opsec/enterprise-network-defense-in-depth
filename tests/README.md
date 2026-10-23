@@ -111,6 +111,4 @@ This test validates access to the corporate web portal hosted on the internal we
 
 ![CoreLink internal web portal running in Cisco Packet Tracer](screenshots/internal-portal.png)
 
-### Conclusion
-
-The test confirms that the internal web server is operational and that the corporate portal is accessible from the TI network using its configured DNS name. This demonstrates successful access to an internal web application hosted in the Data Center VLAN.
+Conclusion: The CoreLink corporate portal loaded successfully from Laptop5, confirming access to the internal web server at 192.168.50.4 through the corporate network.
