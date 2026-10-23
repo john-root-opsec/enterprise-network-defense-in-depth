@@ -42,9 +42,11 @@ ping 192.168.30.12
 
 ![Finance to HR connectivity test](screenshots/finance-to-hr.png)
 
-**Conclusion:** The test confirmed successful inter-VLAN routing between the Finance (VLAN 20) and HR (VLAN 30) networks, with PC20 successfully reaching PC31 at 192.168.30.12. The final ping completed with 0% packet loss, verifying end-to-end connectivity between the two endpoints.
+**Conclusion:** The test confirmed successful connectivity between Finance (VLAN 20) and HR (VLAN 30), with 0% packet loss on the final ping.
+
 ---
 ---
+
 ## 🔒 Remaining Tests
 
 The following evidence will be added after each test has been executed and verified:
