@@ -94,3 +94,21 @@ This test verifies communication between a wireless TI laptop and a wired workst
 **Conclusion:** Laptop1 successfully reached PC40 over the network, confirming connectivity between the wireless and wired devices within VLAN 10.
 
 ---
+
+---
+
+## NET-TEST-04 — Internal Web Portal
+
+This test validates access to the corporate web portal hosted on the internal web server.
+
+- **Client:** Laptop5 — TI network
+- **Portal URL:** `http://intranet.empresa.local`
+- **Web server:** `192.168.50.4`
+- **Hosting network:** Data Center — VLAN 50
+- **Observed result:** The CoreLink corporate portal loaded successfully in the Packet Tracer web browser.
+- **Conclusion:** Successful access to the internal web application from the client device.
+
+### Screenshot
+
+![CoreLink internal web portal running in Cisco Packet Tracer](screenshots/internal-portal.png)
+
