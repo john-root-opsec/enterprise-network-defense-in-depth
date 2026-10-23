@@ -97,7 +97,7 @@ This test verifies communication between a wireless TI laptop and a wired workst
 **Conclusion:** Laptop1 successfully reached PC40 over the network, confirming connectivity between the wireless and wired devices within VLAN 10.
 
 ---
-
+ 
 ---
 
 ## NET-TEST-04 — Internal Web Portal
