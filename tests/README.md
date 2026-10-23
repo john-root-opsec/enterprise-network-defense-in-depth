@@ -116,3 +116,29 @@ This test validates access to the corporate web portal hosted on the internal we
 
 **Conclusion:** The test verified successful HTTP access from Laptop5 on the TI network to the CoreLink web application hosted at 192.168.50.4. The portal was also reachable using the DNS name intranet.empresa.local, confirming name resolution and application availability across the network path to the Data Center (VLAN 50).
 
+---
+
+---
+
+NET-TEST-05 — Secure Remote Management (SSH)
+
+This test validates secure remote administration of the CORE-MLS multilayer switch using SSH instead of Telnet.
+
+Client: Laptop3 — IT network (VLAN 10)
+
+Target device: CORE-MLS — 192.168.10.1
+
+Protocol: SSH
+
+Validation: Successfully accessed the switch remotely and executed show users and show vlan brief.
+
+Security objective: Replace Telnet's unencrypted remote access with SSH, which encrypts management traffic in transit.
+
+Screenshot
+
+Conclusion: SSH remote access was verified, and the switch's active VLANs were confirmed without modifying the network configuration.
+
+
+---
+
+---
