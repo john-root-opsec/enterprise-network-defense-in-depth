@@ -138,8 +138,6 @@ Security objective: Replace Telnet's unencrypted remote access with SSH, which e
 
 ![SSH remote management and VLAN verification](screenshots/ssh-remote-management.png)
 
-Conclusion: SSH remote access was verified, and the switch's active VLANs were confirmed without modifying the network configuration.
-
----
+**Conclusion:** SSH remote access was verified, and the switch's active VLANs were confirmed without modifying the network configuration.
 
 ---
