@@ -120,19 +120,19 @@ This test validates access to the corporate web portal hosted on the internal we
 
 ---
 
-NET-TEST-05 — Secure Remote Management (SSH)
+## NET-TEST-05 — Secure Remote Management (SSH)
 
 This test validates secure remote administration of the CORE-MLS multilayer switch using SSH instead of Telnet.
 
-Client: Laptop3 — IT network (VLAN 10)
+- **Client:** Laptop3 — IT network (VLAN 10)
 
-Target device: CORE-MLS — 192.168.10.1
+- **Target device:** CORE-MLS — 192.168.10.1
 
-Protocol: SSH
+- **Protocol:** SSH
 
-Validation: Successfully accessed the switch remotely and executed show users and show vlan brief.
+- **Validation:** Successfully accessed the switch remotely and executed show users and show vlan brief.
 
-Security objective: Replace Telnet's unencrypted remote access with SSH, which encrypts management traffic in transit.
+- **Security objective:** Replace Telnet's unencrypted remote access with SSH, which encrypts management traffic in transit.
 
 ### Screenshot
 
